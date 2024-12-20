@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Huda's store</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <img src="" alt="">
+      <div class="nav-list">
+        <a href="#about"><h4>About us</h4></a>
+        <a href="#products"><h4 style="margin-left: 10vw">Products</h4></a>
+        <a href="#contactUs"><h4 style="margin-left: 10vw">Contact Us</h4></a>
+      </div>
+    </nav>
+    <main>
+      <div class="welcome">
+        <div class="discover">
+          <h1 style="font-size: 5em">Discover Habeshan Heritage</h1>
+          <h3 style="margin-top: 150px">Unveiling the Rich Culture</h3>
+        </div>
+      </div>
+      <div class="products" id="products">
+        <h1 style="font-size: 3em; margin-left: 7vw; padding-top: 3vw;">The Iconic Habeshan Dress</h1>
+        <div class="product-img">
+          <div class="chiffon-image-1" style="margin-left: 7vw;">
+            <img width='300px' height= '400px' src="/Users/meronmuluy/Desktop/ip assignment/women_section/chiffon/chiffon1.jpeg" alt="">
+            <h2 style="color: #F2C288; margin-top: 2vh;">Chiffon Burgundy</h2>
+            <h4 style="color: #402313">5000 Birr</h4>
+            <a href="/Users/meronmuluy/Desktop/ip assignment/order/order.html?img=/Users/meronmuluy/Desktop/ip assignment/women_section/chiffon/chiffon1.jpeg&name=Chiffon%20Burgundy&price=25000Birr" target="_blank" class="order">
+              <h3 style="color: #F2B479">Order Now</h3>
+            </a>
+          </div>
+          <div class="chiffon-image-5">
+            <img width='300px' height= '400px' src="/Users/meronmuluy/Desktop/ip assignment/women_section/chiffon/chiffon5.jpeg" alt="">
+            <h2 style="color: #F2C288; margin-top: 2vh;">Chiffon Mixed</h2>
+            <h4 style="color: #402313">25000 Birr</h4>
+            <a href="/Users/meronmuluy/Desktop/ip assignment/order/order.html?img=/Users/meronmuluy/Desktop/ip assignment/women_section/chiffon/chiffon5.jpeg&name=Chiffon%20Mixed&price=25000Birr" target="_blank" class="order">
+              <h3 style="color: #F2B479">Order Now</h3>
+            </a>
+          </div>
+          <div class="wedding-image-1">
+            <img width='300px' height= '400px' src="/Users/meronmuluy/Desktop/ip assignment/women_section/wedding/wedding1.jpeg" alt="">
+            <h2 style="color: #F2C288; margin-top: 2vh;">Wedding Green</h2>
+            <h4 style="color: #402313">15000 Birr</h4>
+            <a href="/Users/meronmuluy/Desktop/ip assignment/order/order.html?img=/Users/meronmuluy/Desktop/ip assignment/women_section/wedding/wedding1.jpeg&name=Wedding%20Green&price=15000Birr" target="_blank" class="order">
+              <h3 style="color: #F2B479">Order Now</h3>
+            </a>
+          </div>
+          <div class="modern-image-1">
+            <img width='300px' height= '400px' src="/Users/meronmuluy/Desktop/ip assignment/women_section/modern/modern4.jpeg" alt="">
+            <h2 style="color: #F2C288; margin-top: 2vh;">Modern Green</h2>
+            <h4 style="color: #402313">10000 Birr</h4>
+            <a href="/Users/meronmuluy/Desktop/ip assignment/order/order.html?img=/Users/meronmuluy/Desktop/ip assignment/women_section/modern/modern4.jpeg&name=Modern%20Green&price=10000Birr" target="_blank" class="order">
+              <h3 style="color: #F2B479">Order Now</h3>
+            </a>
+          </div>
+          <div class="casual-image-4">
+            <img width='300px' height= '400px' src="/Users/meronmuluy/Desktop/ip assignment/women_section/casual/casual4.png" alt="">
+            <h2 style="color: #F2C288; margin-top: 2vh;">Casual Grey</h2>
+            <h4 style="color: #402313">15000 Birr</h4>
+            <a href="/Users/meronmuluy/Desktop/ip assignment/order/order.html?img=/Users/meronmuluy/Desktop/ip assignment/women_section/casual/casual4.png&name=Casual%20Grey&price=15000Birr" target="_blank" class="order">
+              <h3 style="color: #F2B479">Order Now</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <div class="description">
+          <p style="font-size: 1.5em">Huda's Store offers traditional Habeshan products, particularly the iconic Habesha dress,
+            which symbolizes cultural identity and heritage in Ethiopia and Eritrea. Made from high-quality cotton,
+            the dress features intricate embroidery and traditional motifs, representing cultural heritage and
+            religious faith. The store aims to engage women and share the rich stories behind the Habesha dress
+          </p>
+          <button type="button" class="button">Learn More</button>
+        </div>
+        <img src="./huda_about_us.jpeg" alt="">
+      </div>
+      <div class="contact-us" id="contactUs">
+        <div class="comment">
+          <h1 style="font-size: 3em; margin-bottom: 50px;">Contact Us</h1>
+          <p>Get in touch or leave a comment!</p>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="send">Send</button>
+        </form>
+      </div>
+      <script src="script.js" charset="utf-8"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222601;
+}
+h1{
+  text-align: center;
+  color: #F28705;
+}
+.order-details{
+  display: flex;
+  gap: 100px;
+  width: 70vw;
+  height: 80vh;
+
+  margin-top: 5vh;
+  margin-left: 15vw;
+  background-color: #F28705;
+
+  border-radius: 5%;
+}
+.product-description{
+  margin-left: 10vw;
+  margin-top: 10vh;
+  color: #222601;
+}
+#order-form{
+  margin-top: 11vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #222601;
+}
+label{
+  font-size: 1.5em;
+}
+button{
+  border-radius: 20px;
+  width: 150px;
+  height: 60px;
+
+  background-color: #222601;
+  border-style: none;
+  color: #F28705;
+}
+button:hover{
+  cursor: pointer;
+}
